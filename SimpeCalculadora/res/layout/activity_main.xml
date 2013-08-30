@@ -182,13 +182,6 @@
             android:text="5" />
 
         <Button
-            android:id="@+id/seis"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
-            android:gravity="center"
-            android:text="6" />
-
-        <Button
             android:id="@+id/multiplicar"
             android:layout_width="50dp"
             android:layout_height="70dp"
@@ -292,9 +285,12 @@
             android:gravity="center"
             android:text="=" />
     </LinearLayout>
-    
-    
-    
-    
+
+    <Button
+        android:id="@+id/seis"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="6" />
     
 </LinearLayout>

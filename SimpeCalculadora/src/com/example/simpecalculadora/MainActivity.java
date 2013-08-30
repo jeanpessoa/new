@@ -48,12 +48,15 @@ public class MainActivity extends Activity {
 				
 		btZero.setOnClickListener(new OnClickListener() {
 			
+			TextView Visor = (TextView) findViewById(R.id.visor);
+
 			@Override
 			public void onClick(View v) {
-				Toast.makeText(MainActivity.this, "Zero Clicado", Toast.LENGTH_LONG).show();
+				//Toast.makeText(MainActivity.this, "Zero Clicado", Toast.LENGTH_LONG).show();
 				String StringVisor;
 				StringVisor = Visor.getText().toString();
-				
+				StringVisor += "0";
+				Toast.makeText(MainActivity.this, StringVisor, Toast.LENGTH_LONG).show();
 			}
 		});
 	

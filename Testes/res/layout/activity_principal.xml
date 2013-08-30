@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Principal"
+    android:orientation="vertical" >
+    
+    
+
+    
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite o primeiro número" 
+        />
+    
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/campo1"
+        android:numeric="decimal"
+        android:text=""
+        />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite o segundo número" 
+        />
+    
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/campo2"
+        android:numeric="decimal"
+        android:text=""
+        />
+        
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <Button 
+            android:layout_width="45dp"
+            android:layout_height="37dp"
+            android:id="@+id/btn_adicao"
+            android:text="+"
+            />
+        
+        <Button 
+            android:layout_width="45dp"
+            android:layout_height="37dp"
+            android:id="@+id/btn_subtracao"
+            android:text="-"
+            />
+        
+        <Button 
+            android:layout_width="45dp"
+            android:layout_height="37dp"
+            android:id="@+id/btn_multiplicacao"
+            android:text="*"
+            />
+        
+        <Button 
+            android:layout_width="45dp"
+            android:layout_height="37dp"
+            android:id="@+id/btn_divisao"
+            android:text="/"
+            />
+        
+        <Button 
+            android:layout_width="45dp"
+            android:layout_height="37dp"
+            android:id="@+id/limpar"
+            android:text="C"
+            
+            />
+        
+        
+        
+    </LinearLayout>
+    
+    <!-- <EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultado"
+        android:gravity="center_horizontal"
+        android:text="Resultado"
+        
+        /> -->
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultado2"
+        android:gravity="center_horizontal"
+        android:text="Resultado"
+        
+        
+        />
+    
+    </LinearLayout>

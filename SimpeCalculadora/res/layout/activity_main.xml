@@ -10,8 +10,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity"
     android:layout_gravity="center" >
-
-    <TextView
+	
+	<TextView
 
         android:id="@+id/visor"
         android:layout_width="match_parent"
@@ -33,36 +33,36 @@
 
         <Button
             android:id="@+id/mc"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_y"
             android:gravity="center"
             android:text="MC" />
 
         <Button
             android:id="@+id/mr"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_y"
             android:gravity="center"
             android:text="MR" />
 
         <Button
             android:id="@+id/ms"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_y"
             android:gravity="center"
             android:text="MS" />
 
         <Button
             android:id="@+id/memoriamais"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_y"
             android:gravity="center"
             android:text="M+" />
 
         <Button
             android:id="@+id/memoriamenos"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_y"
             android:gravity="center"
             android:text="M-" />
     </LinearLayout>
@@ -78,37 +78,37 @@
 
         <Button
             android:id="@+id/apagar"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_y"
             android:gravity="center"
             android:text="CLS"
             />
 
         <Button
             android:id="@+id/limpartudo"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_y"
             android:gravity="center"
             android:text="CE" />
 
         <Button
             android:id="@+id/limpar"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_y"
             android:gravity="center"
             android:text="C" />
 
         <Button
             android:id="@+id/maisoumenos"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_y"
             android:gravity="center"
             android:text="+/-" />
 
         <Button
             android:id="@+id/raiz"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_y"
             android:gravity="center"
             android:text="Raiz" />
     </LinearLayout>
@@ -124,36 +124,36 @@
 
         <Button
             android:id="@+id/sete"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_x"
             android:gravity="center"
             android:text="7" />
 
         <Button
             android:id="@+id/oito"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_x"
             android:gravity="center"
             android:text="8" />
 
         <Button
             android:id="@+id/nove"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_x"
             android:gravity="center"
             android:text="9" />
 
         <Button
             android:id="@+id/divisao"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_x"
             android:gravity="center"
             android:text="/" />
 
         <Button
             android:id="@+id/porcentagem"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_x"
             android:gravity="center"
             android:text="%" />
     </LinearLayout>
@@ -169,29 +169,36 @@
 
         <Button
             android:id="@+id/quatro"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_x"
             android:gravity="center"
             android:text="4" />
 
         <Button
             android:id="@+id/cinco"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_x"
             android:gravity="center"
             android:text="5" />
+        
+        <Button
+	        android:id="@+id/seis"
+	        android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_x"
+	        android:gravity="center"
+	        android:text="6" />
 
         <Button
             android:id="@+id/multiplicar"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_x"
             android:gravity="center"
             android:text="x" />
 
         <Button
             android:id="@+id/fracao"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_x"
             android:gravity="center"
             android:text="1/x" />
     </LinearLayout>
@@ -207,36 +214,36 @@
 
         <Button
             android:id="@+id/um"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_x"
             android:gravity="center"
             android:text="1" />
 
         <Button
             android:id="@+id/dois"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_x"
             android:gravity="center"
             android:text="2" />
 
         <Button
             android:id="@+id/tres"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_x"
             android:gravity="center"
             android:text="3" />
 
         <Button
             android:id="@+id/subtrair"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_x"
             android:gravity="center"
             android:text="-" />
 
         <Button
             android:id="@+id/e"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_x"
             android:gravity="center"
             android:text="not" />
     </LinearLayout>
@@ -252,45 +259,40 @@
 
         <Button
             android:id="@+id/zero"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_x"
             android:gravity="center"
             android:text="0" />
 
         <Button
             android:id="@+id/b"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_x"
             android:gravity="center"
             android:text="not" />
 
         <Button
             android:id="@+id/virgula"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_x"
             android:gravity="center"
             android:text="," />
 
         <Button
             android:id="@+id/soma"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_x"
             android:gravity="center"
             android:text="+" />
 
         <Button
             android:id="@+id/igualar"
-            android:layout_width="50dp"
-            android:layout_height="70dp"
+            android:layout_width="@dimen/dimen_x"
+            android:layout_height="@dimen/dimen_x"
             android:gravity="center"
             android:text="=" />
     </LinearLayout>
 
-    <Button
-        android:id="@+id/seis"
-        android:layout_width="50dp"
-        android:layout_height="70dp"
-        android:gravity="center"
-        android:text="6" />
+    
     
 </LinearLayout>

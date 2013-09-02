@@ -1,7 +1,5 @@
 package com.example.simpecalculadora;
 
-import com.example.simpecalculadora.R.string;
-
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
